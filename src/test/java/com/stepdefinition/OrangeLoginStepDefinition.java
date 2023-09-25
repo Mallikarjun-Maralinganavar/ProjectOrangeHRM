@@ -1,18 +1,16 @@
 package com.stepdefinition;
 
 import org.testng.Assert;
-import org.testng.ITestResult;
 
 import com.pageactions.OrangeHRMHomePageActions;
 import com.pageactions.OrangeHRMLoginPageActions;
 import com.utils.DriverClass;
 
-import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class OrangeHRMLoginPageStepDefinition {
+public class OrangeLoginStepDefinition {
 	OrangeHRMHomePageActions oh = new OrangeHRMHomePageActions();
 	OrangeHRMLoginPageActions ol = new OrangeHRMLoginPageActions();
 
